@@ -1,7 +1,7 @@
 Playing Game Metrics Common
 ===========================
 
-Game metrics common for playful applications.
+Game metrics common utilites for building playful applications.
 
 # Usage
 
