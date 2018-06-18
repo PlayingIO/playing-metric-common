@@ -1,6 +1,6 @@
 {
   "name": "playing-metric-common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Game metrics common utilites for building playful applications",
   "author": "Forafish",
   "license": "MIT",
