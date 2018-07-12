@@ -1,7 +1,7 @@
-import createUserMetrics from './create-user-metrics';
-import evalFormulaValue from './eval-formula-value';
+const createUserMetrics = require('./create-user-metrics');
+const evalFormulaValue = require('./eval-formula-value');
 
-export default {
+module.exports = {
   createUserMetrics,
   evalFormulaValue
 };

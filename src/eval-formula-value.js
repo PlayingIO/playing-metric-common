@@ -1,9 +1,9 @@
-import nerdamer from 'nerdamer';
+const nerdamer = require('nerdamer');
 
 /**
  * Evaluate metric value formula with variables
  */
-export default function evalFormulaValue (metricType, value, variables) {
+module.exports = function evalFormulaValue (metricType, value, variables) {
   const result = nerdamer(value, variables).evaluate();
   switch (metricType) {
     case 'point':
@@ -13,4 +13,4 @@ export default function evalFormulaValue (metricType, value, variables) {
     default:
       return result.text();
   }
-}
+};
